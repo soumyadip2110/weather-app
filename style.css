@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+.primary-container{
+    height: 400px;
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary-container{
+    height: 300px;
+    width: 400px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+.input-container{
+    margin-bottom: 15px;
+}
+
+.result-container, .primary-container,
+.secondary-container, .input-container{
+    border: 2px solid white;
+}
