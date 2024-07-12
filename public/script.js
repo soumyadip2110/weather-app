@@ -22,7 +22,7 @@ async function showWeather(cityName) {
 
 async function getData(cityName) {
     try {
-        const response = await fetch('http://localhost:3000/config')
+        const response = await fetch('/api/config')
         const data = await response.json()
         const apiKey = data.apiKey
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`

@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 app.use(cors());
 
-app.get('/config', (req, res) => {
+app.get('/api/config', (req, res) => {
     res.json({apiKey: process.env.API_KEY})
 });
 
