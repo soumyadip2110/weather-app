@@ -31,7 +31,12 @@ body{
     margin-bottom: 15px;
 }
 
-.result-container, .primary-container,
+.result-container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .result-container, .primary-container,
 .secondary-container, .input-container{
     border: 2px solid white;
-}
+} */
